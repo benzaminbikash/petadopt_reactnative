@@ -47,6 +47,12 @@ const RootLayout = () => {
           }}
         />
         <Stack.Screen
+          name="petdetials/index"
+          options={{
+            headerTintColor: "gray",
+          }}
+        />
+        <Stack.Screen
           name="login/index"
           options={{
             headerShown: false,
